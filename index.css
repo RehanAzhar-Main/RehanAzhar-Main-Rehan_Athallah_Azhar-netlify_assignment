@@ -1,0 +1,88 @@
+/* 3 layers ogf tailwind */
+/* @tailwind base; //reset style browser
+@tailwind components; //membuat komponen
+@tailwind utilities; // kelas ultility */
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Nunito&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #245c5c;
+    font-family: "Nunito", sans-serif;
+  }
+
+  .navMenu h1 {
+    font-family: 'Lobster', cursive;
+  }
+
+  .navMenu,
+  header,
+  .education,
+  .skills,
+  .email,
+  .socialprofiles {
+    background: #f8f7f1; //f8f7f1
+  }
+
+.about,
+.education,
+.project,
+.skills,
+.cv {
+  padding : 11% 10% 25% 10%;
+}
+
+
+  form {
+    margin: 25px 0px 150px 0px;
+  }
+
+  /* input, select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 10px 75px;
+  } */
+
+  
+
+  @media screen and (min-width: 320px) and (max-width: 1000px)  {
+    /* For tablets: */
+    header img {
+        width: 100%;
+        height: auto;
+        padding-top:220px;
+
+        /* Prevent the image from stretching. So it crops the image to prevent from awkward stretching */
+      }
+    
+      
+    input{
+        width : 100%;
+    }
+
+
+  }
+
+  @media screen and (min-width: 1080px) {
+    /* For Laptop or PC: */
+    header img {
+        width: 75%;
+        height: auto;
+        object-fit: cover;
+        /* Prevent the image from stretching. So it crops the image to prevent from awkward stretching */
+      }
+
+      .education img{
+        width: 50%;
+        height: auto;
+      }
+    input{
+        width : 50%;
+    }
+
+
+  }

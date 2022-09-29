@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <title>Rehan Portofolio</title>
+
+
+</head>
+
+<nav class="bg-white px-2 sm:px-4 py-2.5 dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+    <div class="container flex flex-wrap justify-between items-center mx-auto">
+        <a href="https://flowbite.com/" class="flex items-center">
+            <img src="https://flowbite.com/docs/images/logo.svg" class="mr-3 h-6 sm:h-9" alt="Flowbite Logo">
+            <span class="self-center text-xl font-bold whitespace-nowrap dark:text-white">Rehan CV</span>
+        </a>
+        <div class="flex md:order-2">
+            <a href="http://wa.me/082231102949" class="flex items-center">
+                <img src="./img/whatsapp.png" width="35px" alt="whatsapp">
+                <span class="self-center text-l font-semibold whitespace-nowrap dark:text-white mx-3.5">Wa.me</span>
+            </a>
+            <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                aria-controls="navbar-sticky" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+      </button>
+        </div>
+        <div class="hidden justify-between items-center w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+            <ul class="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                <li>
+                    <a href="#header" class="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white" aria-current="page">Home</a>
+                </li>
+                <li>
+                    <a href="#about" class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
+                </li>
+                <li>
+                    <a href="#education" class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Education</a>
+                </li>
+                <li>
+                    <a href="#project" class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Project</a>
+                </li>
+                <li>
+                    <a href="#skills" class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Skills</a>
+                </li>
+                <li>
+                    <a href="#file" class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">CV</a>
+                </li>
+                <li>
+                    <a href="#footer" class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<main>
+
+
+    <header id="header" class="header flex flex-wrap  pt-28 w-full">
+        <div class="flex-initial w-3/5 ">
+            <p class="text-xl font-semibold grow h-10 p-5">Hey There,</p>
+            <p class="text-7xl font-bold grow h-10 p-5">I'm Rehan</p>
+            <p class="text-lg mt-32 px-5">“It is Important to Follow your Dreams and Heart. Do Something that Excites You.”</p>
+            <p class="text-lg font-semibold p-5 ml-4">– Sundar Pichai</p>
+        </div>
+        <div class="flex-initial  w-2/5 ">
+            <img src="./img/Rehan.png" class="rehanpicture" alt="foto resmi rehan">
+        </div>
+
+    </header>
+
+    <section id="about" class="about">
+        <h2 class="text-3xl text-center font-semibold tracking-wide mb-10">Tentang Saya</h2>
+        <p>Halo, nama saya Rehan Athallah Azhar. Saya mahasiswa aktif semester 5 jurusan informatika dari universitas jember yang terampil dalam membuat website dengan fungsi create update dan delete (CRUD). Sedang mencari kesempatan untuk mengembangkan
+            kemampuan untuk bertumbuh di bidang pengembangan situs web. Saya senang dan memiliki antusias tinggi untuk belajar</p>
+    </section>
+
+    <section id="education" class="education ">
+        <h2 class="text-3xl text-center font-semibold tracking-wide mb-20">Riwayat Edukasi</h2>
+
+        <div class="flex flex-wrap justify-center gap-6 ">
+            <div class="flex flex-col items-center overflow-hidden bg-white rounded-lg border shadow-md md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                <img class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg p-5" src="./img/universitas-jember.png" alt="logo universitas jember">
+                <div class="flex flex-col justify-between p-4 leading-normal">
+                    <h4 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Universitas Jember</h4>
+                    <p class="mb-3 font-light text-gray-700 dark:text-gray-400">2020 - 2024</p>
+                    <p class="mb-3 font-semibold text-gray-700 dark:text-gray-400">Informatika</p>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 pl-6">
+                        <ul class="list-disc pl-3">
+                            <li>
+                                Memiliki IPK yang tinggi (IPK :3.79)
+                            </li>
+                            <li>
+                                Ekstrakulikuler LAOS di bidang pengembangan web sejak 2020
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex flex-col items-center overflow-hidden bg-white rounded-lg border shadow-md md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                <img class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg p-5" src="./img/smasa.jpeg" alt="logo sman 1 lumajang">
+                <div class="flex flex-col justify-between p-4 leading-normal">
+                    <h4 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white ">SMAN 1 Lumajang</h4>
+                    <p class="mb-3 font-light text-gray-700 dark:text-gray-400">2017 - 2020</p>
+                    <p class="mb-3 font-semibold text-gray-700 dark:text-gray-400">MIPA</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="project" class="project">
+        <h2 class="text-3xl text-center font-semibold tracking-wide mb-20">Proyek</h2>
+        <div class="overflow-x-auto relative">
+            <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+                <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                    <tr>
+                        <th scope="col" class="py-3 px-6">
+                            Nama Proyek
+                        </th>
+                        <th scope="col" class="py-3 px-6">
+                            Jangka Waktu
+                        </th>
+                        <th scope="col" class="py-3 px-6">
+                            Deskripsi
+                        </th>
+                        <th scope="col" class="py-3 px-6">
+                            File
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Project 1 : Pengembangan Situs Web Northwind -->
+                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                        <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                            Pengembangan Situs Web Northwind
+                        </th>
+                        <td class="py-4 px-6">
+                            Juni 2022 - Juli 2022
+                        </td>
+                        <td class="py-4 px-6">
+                            <!-- belum -->
+                            <ul>
+                                <li>
+                                    Beranggotakan 4 orang dengan 2 role berbeda
+                                </li>
+                                <li>
+                                    Bertindak sebagai back end developer dengan 2 rekan lainnya.
+                                </li>
+                                <li>kas Melakukan pengembangan web dengan fitur utama create, update, delete dan search dengan konsep asynchronous.
+                                </li>
+                                <li>
+                                    Berhasil membuat situs web yang menampilkan database northwind secara asynchronous serta tampilan yang menarik dan mudah dimengerti.
+                                </li>
+                            </ul>
+                        </td>
+                        <td class="py-4 px-6">
+                            <a href="https://github.com/rfasich24/PBW-IFC16">Link Proyek</a>
+                        </td>
+                    </tr>
+
+                    <!-- Project 2 : Pengembangan Situs Web Bengkelin -->
+                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                        <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                            Pengembangan Situs Web Bengkelin
+                        </th>
+                        <td class="py-4 px-6">
+                            Mei 2022 - Juli 2022
+                        </td>
+                        <td class="py-4 px-6">
+                            <ul>
+                                <li>
+                                    Beranggotakan 3 orang dengan 2 role berbeda
+                                </li>
+                                <li>
+                                    Bertindak sebagai back end developer dengan 1 rekan lainnya.
+                                </li>
+                                <li>
+                                    Melakukan pengembangan web dengan fitur utama create, update dan delete.
+                                </li>
+                                <li>
+                                    Berhasil membuat situs web yang mampu mengelola pencatatan peminjaman barang pada bengkel dengan konsep MVC agar lebih efisien dan mencegah human error.
+                                </li>
+                            </ul>
+                        </td>
+                        <td class="py-4 px-6">
+                            <a href="https://github.com/rfasich24/Project-PBO">Link Proyek</a>
+                        </td>
+                    </tr>
+
+                    <!-- Project 3 : Pengembangan Situs Web Kripik Firda -->
+                    <tr class="bg-white dark:bg-gray-800">
+                        <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                            Pengembangan Situs Web Kripik Firda
+                        </th>
+                        <td class="py-4 px-6">
+                            Maret 2022 - Juli 2022
+                        </td>
+                        <td class="py-4 px-6">
+                            <ul>
+                                <li>
+                                    Terdiri dari 6 orang dengan 5 role berbeda
+                                </li>
+                                <li>
+                                    Bertindak sebagai back end developer dan menghubungkan tim dengan mitra yang terkait
+                                </li>
+                                <li>
+                                    Melakukan wawancara kepada pemilik keripik firda di Lumajang, Jawa Timur dan melakukan pengembangan situs web dengan metode agile
+                                </li>
+                                <li>
+                                    Berhasil membuat situs web yang mampu mengelola pencatatan barang dan keuangan dengan fitur utama create, update dan delete dengan konsep MVC agar lebih efisien dan mencegah human error.
+                                </li>
+                            </ul>
+                        </td>
+                        <td class="py-4 px-6">
+                            <a href="https://github.com/Heroeshunter17/Project-PPLAM">Link Proyek</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </section>
+
+    <section id="skills" class="skills">
+        <h2 class="text-3xl text-center font-semibold tracking-wide mb-20">Keterampilan</h2>
+        <h3 class="text-2xl font-semibold tracking-wide mb-5">Programming</h3>
+        <div class=" flex">
+            <div class="flex flex-col overflow-hidden p-3"><img src="./img/golang.png " width="75px " alt="logo golang "></div>
+            <div class="flex flex-col overflow-hidden p-3"><img src="./img/python.png " width="60px " alt="logo python "></div>
+            <div class="flex flex-col overflow-hidden p-3"><img src="./img/php.png " width="75px " alt="logo php "></div>
+            <div class="flex flex-col overflow-hidden p-3"><img src="./img/javascript.png " width="75px " alt="logo javascript "></div>
+            <div class="flex flex-col overflow-hidden p-3"><img src="./img/CSharp.png " width="75px " alt="logo C# "></div>
+        </div>
+
+        <h3 class="text-2xl font-semibold tracking-wide mb-5">Teknologi</h3>
+        <img src="./img/git.png " class="mb-10" width="50px " alt="logo git ">
+
+        <h3 class="text-2xl font-semibold tracking-wide mb-5">Bahasa</h3>
+        <img src="./img/inggris.png " class="mb-5" width="100px " alt="Bendera Inggris ">
+    </section>
+
+    <section id="file " class="cv ">
+        <h2 class="text-3xl text-center font-semibold tracking-wide mb-10 ">Berkas & Sertifikat</h2>
+        <!-- CV -->
+        <div class="flex flex-wrap w-full mt-4 mb-8 ">
+            <div class="max-w-sm rounded-md overflow-hidden shadow-lg mt-10 h-fit">
+                <a href="https://drive.google.com/file/d/1h6BNP-pMPlK9eTRDgCA6QpudcDOuCb2w/view?usp=sharing ">
+                    <img src="./img/CV.png " class="p-5 " alt="cv pdf rehan ">
+                    <div class="px-6 py-4 ">
+                        <div class="font-bold text-xl mb-2 ">CV Rehan Athallah Azhar</div>
+                        <p class="text-gray-700 text-base ">
+                            Curiculum Vitae (CV) Rehan Athallah Azhar. Anda dapat mengklik kotak kartu ini untuk melihat lebih lanjut.
+                    </div>
+                    <div class="px-6 pt-4 pb-2 ">
+                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 ">#Curiculum Vitae</span>
+                    </div>
+                </a>
+            </div>
+            <!-- Sertifikat -->
+            <div class="max-w-sm rounded-md overflow-hidden shadow-lg m-10 h-fit ">
+                <a href="https://drive.google.com/drive/folders/1iDz969uYpaG5WYdkulKJAEWN6sPTCUhP?usp=sharing ">
+                    <img class="p-5 " src="./img/sertifikat.png " alt="Sunset in the mountains ">
+                    <div class="px-6 py-4 ">
+                        <div class="font-bold text-xl mb-2 ">The Coldest Sunset</div>
+                        <p class="text-gray-700 text-base ">
+                            File sertifikat Rehan Aathallah Azhar. Anda dapat mengklik kotak kartu ini untuk melihat lebih lanjut.
+                        </p>
+                    </div>
+                    <div class="px-6 pt-4 ">
+                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 ">#Sertifikat</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    </section>
+
+
+</main>
+<footer id="footer " class="footer ">
+    <section id="email " class="email flex justify-center pt-10 pb-8 ">
+
+        <h2 class="text-3xl font-semibold tracking-wide mb-10 mr-2 ">Email : </h2>
+
+        <span class="text-xl font-semibold mt-2">azharrehan208@gmail.com</span>
+    </section>
+
+    <section id="emailInput " class="emailInput mt-10 ">
+        <span class="text-lg font-medium ml-6 pl-3">Kamu juga bisa menghubungi saya dengan mengisi formulir dibawah ini :</span>
+        <form action=" " class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 ">
+            <!-- Nama -->
+            <div class="mb-4 ">
+                <label for="nameInput " class="block text-gray-700 text-sm font-bold mb-2 ">Nama</label>
+                <input class="shadow appearance-none border rounded py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline " type="text " id="nameInput " placeholder="Nama lengkap ">
+            </div>
+
+            <!-- Email -->
+            <div>
+                <label for="emailInput " class="block text-gray-700 text-sm font-bold mb-2 ">Email</label>
+                <input type="email " id="emailInput " class="shadow appearance-none border rounded py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline " placeholder="...@gmail.com ">
+            </div>
+
+            <!-- Judul Pesan -->
+            <div>
+                <label for="judulPesan " class="block text-gray-700 text-sm font-bold mb-2 ">Judul</label>
+                <input type="text " id="judulPesan " class="shadow appearance-none border rounded py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline " placeholder="Judul Pesan ">
+            </div>
+
+            <!-- Isi -->
+            <div>
+                <label for="pesanText " class="block text-gray-700 text-sm font-bold mb-2 ">Isi Pesan</label>
+                <textarea id="pesanText " rows="4 " class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400
+            dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 " placeholder="Tulis pesan... "></textarea>
+            </div>
+            <button type="submit " class="submit bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-10 ">Kirim</button>
+        </form>
+
+    </section>
+
+    <section id="socialprofiles " class="socialprofiles p-4 ">
+        <table class="socialprofiles-table ">
+            <tr>
+                <td>
+                    <a href="https://www.facebook.com/rehan.azhar.31542 "><img src="./img/facebook.png " width="60px " alt="logo facebook "></a>
+                </td>
+                <td>
+                    <a href="https://www.instagram.com/rehanazhar._/?next=%2F&hl=id "><img src="./img/instagram.png " width="50px " alt="logo instagram "></a>
+                </td>
+                <td>
+                    <a href="https://www.linkedin.com/in/rehan-athallah-azhar-917822193/ "><img src="./img/linkedin.png " width="65px " alt="logo linkedin "></a>
+                </td>
+                <td>
+                    <a href="https://github.com/RehanAzhar-Main "><img src="./img/github.png " width="50px " alt="logo github "></a>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+</footer>
+
+<body>
+
+</body>
+
+</html>
